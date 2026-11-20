@@ -33,3 +33,32 @@ do {
     console.log("Attempt made");
     attempts++;
 } while(attempts <= 3);
+
+/**
+ * Functions
+ */
+function greetDeveloper(name) {
+    console.log("Welcome to ASW Technologies," + name);
+}
+
+greetDeveloper("Andreas");
+greetDeveloper("Samuel");
+greetDeveloper("Wayne");
+
+/**
+ * Challenge 1
+ */
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(4, 5));
+
+/**
+ * challenge 2
+ */
+function calculateAge(year){
+    return 2026 - year;
+}
+
+let age = calculateAge(2008);
+console.log(age);

@@ -152,3 +152,56 @@ let team = [
 
 team.push({name: "Beta", role: "Designer"});
 console.log(team.length);
+
+/**
+ * Using a FOR LOOP with an array
+ */
+let army =["Knight", "Mage", "Archer"];
+for (let i = 0; i < army.length; i++){
+    console.log( army[i]);
+}
+
+/**
+ * Looping through an array of objects
+ */
+let devs = [
+    {name: "Quinn", level: 5},
+    {name: "Kaine", level: 8},
+    {name: "Kealor", level: 3}
+];
+for (let i = 0; i < devs.length; i++){
+    console.log(devs[i].name);
+    console.log(devs[i].level);
+}
+
+/**
+ * Boss fight 013
+ * Challenge 1
+ */
+let units = ["Knight", "Mage", "Archer"];
+for (let i = 0; i < units.length; i++){
+    console.log(units[1]);
+}
+
+/**
+ * challenge 2
+ */
+let dev = [
+    {name: "Alex", level: 4},
+    {name: "John", level: 7}
+];
+for (let i = 0; i < dev.length; i++){
+    console.log(dev[i].level);
+}
+
+/**
+ * Challenge 3
+ */
+let agents = [
+    {name: "ORION", status: "Active"},
+    {name: "NOVA", status: "Offline"},
+    {name: "ARES", status: "Active"}
+];
+for (let i = 0; i < agents.length; i++){
+    console.log(agents[i].name);
+}

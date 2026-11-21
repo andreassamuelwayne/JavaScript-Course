@@ -34,3 +34,17 @@ let project = {
 console.log(project["name"]);
 console.log(project["description"]);
 console.log(project["technologies"][2]);
+
+/**
+ * Challenge 2
+ */
+
+let system = {
+    security: "Basic"
+};
+
+system.security = "Advanced";
+system.version = 2;
+
+console.log(system.security);
+console.log(system.version);
